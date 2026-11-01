@@ -1,0 +1,20 @@
+{
+  "name": "xiaokuihua-douyin-cover",
+  "version": "0.1.0",
+  "description": "根据中文文案与人物照片制作抖音视频封面，支持人物描边、大标题与节庆拼贴。",
+  "author": {
+    "name": "小葵花"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "小葵花抖音封面skill",
+    "shortDescription": "给文案和图片，直接制作你的专属视频封面",
+    "longDescription": "提炼中文文案重点，保留人物与场景辨识度，制作人物贴纸描边、醒目大标题和主题拼贴封面。支持活动探店、口播、旅行、教育和穿搭。默认3:4，可指定9:16或横版；逐项检查日期、优惠条件与中文文字。",
+    "developerName": "小葵花",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "用小葵花抖音封面skill，根据我提供的文案和图片直接制作一张视频封面。"
+    ]
+  }
+}
