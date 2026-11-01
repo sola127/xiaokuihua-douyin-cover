@@ -1,0 +1,20 @@
+{
+  "name": "xiaokuihua-plugins",
+  "interface": {
+    "displayName": "小葵花的技能"
+  },
+  "plugins": [
+    {
+      "name": "xiaokuihua-douyin-cover",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
